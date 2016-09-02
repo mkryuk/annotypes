@@ -1,0 +1,38 @@
+{
+  "name": "annotypes",
+  "version": "1.0.0",
+  "description": "sample project using AngularJS NodeJS Typescript and SystemJS all at once",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:mkryuk/annotypes.git"
+  },
+  "keywords": [
+    "angular",
+    "node",
+    "typescript",
+    "systemjs"
+  ],
+  "author": "mkryuk@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-grid": "^3.2.6",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "systemjs": "^0.19.37"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-decompress": "^2.0.0",
+    "gulp-download": "0.0.1",
+    "gulp-run": "^1.7.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3"
+  }
+}

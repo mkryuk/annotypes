@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/angular-ui-grid/ui-grid.css">
+    <base href="/">
+</head>
+
+<body>
+    <ul class="nav nav-tabs">
+        <li role="presentation" ng-class="{active: $state.includes('home')}"><a href="#" ui-sref="home">Home</a></li>
+        <li role="presentation" ng-class="{active: $state.includes('database')}"><a ui-sref="database">Database</a></li>
+        <li role="presentation" ng-class="{active: $state.includes('directive')}"><a ui-sref="directive">Directive</a></li>
+    </ul>
+    <div ui-view></div>
+
+    <!--<grid/>-->
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.js"></script>
+    
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="app/config/sys.config.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+bin/
+compiled/
+minified/
+node_modules/
+nwjs*/
+typings/
+*.db

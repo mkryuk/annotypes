@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "system",
+    "outDir": "./compiled/"
+  },
+  "exclude": [
+    "node_modules",
+    "typings"
+  ],
+  "compileOnSave": true
+}
