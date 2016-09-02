@@ -1,5 +1,5 @@
-import HomeController from "controllers/homeController";
-import DatabaseController from "controllers/databaseController";
+import HomeController from "controllers/home.controller";
+import DatabaseController from "controllers/database.controller";
 
 export default class Router {
   static $inject = ["$stateProvider", "$urlRouterProvider"];

@@ -1,11 +1,10 @@
-import Router from "routes/appRoutes";
-import {GreetingsDirective} from "directives/greetingsDirective";
-import dataService from "services/dataService";
-import databaseService from "services/databaseService";
-import HomeController from "controllers/homeController";
-import DatabaseController from "controllers/databaseController";
+import Router from "routes/app.routes";
+import {GreetingsDirective} from "directives/greetings.directive";
+import dataService from "services/data.service";
+import databaseService from "services/database.service";
+import HomeController from "controllers/home.controller";
+import DatabaseController from "controllers/database.controller";
 
-// import * as angular from "angular";
 
 export default function (appName: string) {
   angular.module(appName, ["ui.router", "ui.grid"])
